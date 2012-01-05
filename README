@@ -1,0 +1,46 @@
+
+espeak (0.2)
+======================================
+pure data external to synthesize text to an array with espeak library
+
+based on flite external by Bryan Jurish
+
+* depends on espeak
+
+(C) 2011 by Matthias Kronlachner
+
+thanks to
+IOhannes Zmoelnig
+Bryan Jurish
+
+__________________________________________________________
+
+::INSTALL::
+just testet under Ubuntu but should also work in OSX
+
+
+*	get/install pd (http://puredata.info)
+
+*	get and install espeak
+	http://espeak.sourceforge.net/
+
+	or sudo apt-get install espeak libespeak-dev 
+
+*	edit Makefile for right path to pd sources
+
+*	#.../espeak> make
+
+
+*	have a look at the espeak-help.pd file!
+
+
+ ________________
+:::THINGS TO DO:::
+
+*		access all properties of the library
+*		output current properties at outlet
+
+
+questions: m.kronlachner@gmail.com
+
+
