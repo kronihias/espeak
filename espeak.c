@@ -82,7 +82,7 @@ void espeak_synth(t_espeak *x) {
     return;
   }
   
-  verbose(1, "espeak: strlen textbuffer %d",strlen(x->textbuf));
+  verbose(1, "espeak: strlen textbuffer %d",(int)strlen(x->textbuf));
 
   
   verbose(1, "espeak: call Synth function");
